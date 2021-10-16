@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-3/gif-battle.git"
+  },
+  "author": "Cédric Quenette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-3/gif-battle/issues"
+  },
+  "homepage": "https://github.com/Coder-3/gif-battle#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
